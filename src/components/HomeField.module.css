@@ -1,0 +1,73 @@
+.MainContainer
+{
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid lightblue;
+}
+
+div.livePreviewContainer
+{
+   display: flex;
+   flex-direction: row;
+   background: #ECEDF0;
+}
+
+.hide
+{
+    display: none;
+}
+
+.livePreviewContainer:hover + .hide
+{
+    display: block;
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 285px;
+    height: 200px;
+    padding: 18px;
+    top:101px;
+    left: 387px;
+    border-radius: 14px;
+    border: 1px solid whitesmoke;
+}
+
+
+
+div.ToDoContainer
+{
+   display: flex;
+   flex-direction: row;
+}
+
+div.CallToActionContainer
+{
+   display: flex;
+   flex-direction: row;
+   
+    
+}
+
+
+div.HomeFeedContainer {
+	display: flex;
+	flex-direction: row;
+	gap: 50px;
+}
+
+h1{
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33.89px;
+}
+
+
+.HomeFeedButton
+{
+    width: 32px;
+    height: 32px;
+    margin-top: 17px;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
